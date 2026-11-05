@@ -25,6 +25,8 @@ manufacturer's device. Groove centerlines are
 Gmsh makes an unstructured tetrahedral Y-channel mesh. I map its vertical
 coordinates from [0,1] to [floor(x,y),1]. The resulting affine tetrahedra
 approximate the rounded floor; refining the mesh refines the geometry too.
+The constructor checks signed element Jacobians before and after the map
+and rejects an inverted or collapsed tetrahedron.
 This is a 3D wall shape that drives transverse motion, not an imposed swirl
 velocity or a 2D herringbone drawing.
 

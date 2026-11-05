@@ -51,6 +51,13 @@ def channel(h=0.4, depth=0.25):
     finally:
         gmsh.finalize()
     xyz = mesh.geometry.x
+    cells = mesh.geometry.dofmap
+    def determinants():
+        vertices = xyz[cells]
+        return np.linalg.det(vertices[:,1:]-vertices[:,:1])
+    original = determinants()
     bottom = floor(xyz[:,0],xyz[:,1],depth)
     xyz[:,2] = bottom + (1-bottom)*xyz[:,2]
+    if np.min(determinants()/original) <= 1e-8:
+        raise ValueError("Floor mapping inverted a tetrahedron; refine the mesh or reduce groove depth")
     return mesh, facets
