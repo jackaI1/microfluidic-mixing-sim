@@ -1,0 +1,25 @@
+name: Verify simulation
+on: [push, pull_request]
+jobs:
+  finite-element-study:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    defaults:
+      run:
+        shell: bash -el {0}
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v4
+      - uses: mamba-org/setup-micromamba@v2
+        with:
+          environment-file: environment.yml
+          cache-environment: true
+      - run: python -m pytest -q
+      - run: python -m mixing.study --coarse --output ci-results
+      - uses: actions/upload-artifact@v4
+        with:
+          name: coarse-study
+          path: ci-results/

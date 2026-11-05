@@ -1,0 +1,50 @@
+[
+  {
+    "depth_H": 0,
+    "samples_per_axis": 16,
+    "x_H": 15.5,
+    "mean": 0.24995756293406193,
+    "reverse_flux_fraction": -0.0,
+    "mixing_index": 0.7826205856003609
+  },
+  {
+    "depth_H": 0,
+    "samples_per_axis": 32,
+    "x_H": 15.5,
+    "mean": 0.24993796810728613,
+    "reverse_flux_fraction": -0.0,
+    "mixing_index": 0.7828249983178479
+  },
+  {
+    "depth_H": 0,
+    "samples_per_axis": 64,
+    "x_H": 15.5,
+    "mean": 0.24993683285176563,
+    "reverse_flux_fraction": -0.0,
+    "mixing_index": 0.7828949430607992
+  },
+  {
+    "depth_H": 0.25,
+    "samples_per_axis": 16,
+    "x_H": 15.5,
+    "mean": 0.2499606390668122,
+    "reverse_flux_fraction": -0.0,
+    "mixing_index": 0.8002470216961709
+  },
+  {
+    "depth_H": 0.25,
+    "samples_per_axis": 32,
+    "x_H": 15.5,
+    "mean": 0.24993851029639544,
+    "reverse_flux_fraction": -0.0,
+    "mixing_index": 0.8004132144613608
+  },
+  {
+    "depth_H": 0.25,
+    "samples_per_axis": 64,
+    "x_H": 15.5,
+    "mean": 0.24993724850400542,
+    "reverse_flux_fraction": -0.0,
+    "mixing_index": 0.8004831428205856
+  }
+]
