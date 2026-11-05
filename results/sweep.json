@@ -1,0 +1,2450 @@
+[
+  {
+    "U_m_s": 8.333333333333334e-05,
+    "Pe_H": 8.333333333333334,
+    "Re_H": 0.008333333333333335,
+    "diffusion_time_s": 40.0,
+    "diffusion_length_m": 0.0033333333333333335,
+    "ratio": 1,
+    "rate_uL_min": 0.1,
+    "profile": [
+      {
+        "x_H": 0.5,
+        "mean": 0.5000619951286931,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.4603214177334387,
+        "advective_time_s": 0.6
+      },
+      {
+        "x_H": 1.5,
+        "mean": 0.5001518136872073,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6167283332586705,
+        "advective_time_s": 1.8
+      },
+      {
+        "x_H": 2.5,
+        "mean": 0.5001815255870032,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7278174629228416,
+        "advective_time_s": 2.9999999999999996
+      },
+      {
+        "x_H": 3.5,
+        "mean": 0.499897962357566,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.8076376930270135,
+        "advective_time_s": 4.199999999999999
+      },
+      {
+        "x_H": 4.5,
+        "mean": 0.5000565904807717,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.8632695805178617,
+        "advective_time_s": 5.3999999999999995
+      },
+      {
+        "x_H": 5.5,
+        "mean": 0.5000750045580632,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9035375459345831,
+        "advective_time_s": 6.6
+      },
+      {
+        "x_H": 6.5,
+        "mean": 0.49991864355271526,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9316397851064253,
+        "advective_time_s": 7.8
+      },
+      {
+        "x_H": 7.5,
+        "mean": 0.5000044892370887,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9513560809550959,
+        "advective_time_s": 8.999999999999998
+      },
+      {
+        "x_H": 8.5,
+        "mean": 0.5000693074115139,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9655613885928102,
+        "advective_time_s": 10.2
+      },
+      {
+        "x_H": 9.5,
+        "mean": 0.49995391613013573,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.97551056450648,
+        "advective_time_s": 11.399999999999999
+      },
+      {
+        "x_H": 10.5,
+        "mean": 0.49999196580525496,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9826035188149792,
+        "advective_time_s": 12.6
+      },
+      {
+        "x_H": 11.5,
+        "mean": 0.4999915154419896,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9876818378303359,
+        "advective_time_s": 13.799999999999997
+      },
+      {
+        "x_H": 12.5,
+        "mean": 0.49999961306720936,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9912832468808426,
+        "advective_time_s": 14.999999999999998
+      },
+      {
+        "x_H": 13.5,
+        "mean": 0.4999989143856689,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9938162330656142,
+        "advective_time_s": 16.2
+      },
+      {
+        "x_H": 14.5,
+        "mean": 0.5000015362297463,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9956130101257312,
+        "advective_time_s": 17.4
+      },
+      {
+        "x_H": 15.5,
+        "mean": 0.5000000865369634,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9968334709746016,
+        "advective_time_s": 18.599999999999998
+      }
+    ],
+    "residence_time_s": 23.250000000000092,
+    "t90_s": 6.6,
+    "c_min": 0.0,
+    "c_max": 1.0,
+    "depth_H": 0,
+    "h_H": 0.3,
+    "cells": 8281,
+    "flux": {
+      "1": -0.9999999999999997,
+      "2": -1.0,
+      "3": 1.9999999999999973,
+      "relative_imbalance": 1.165734175856416e-15
+    }
+  },
+  {
+    "U_m_s": 0.0004166666666666667,
+    "Pe_H": 41.666666666666664,
+    "Re_H": 0.04166666666666667,
+    "diffusion_time_s": 40.0,
+    "diffusion_length_m": 0.016666666666666666,
+    "ratio": 1,
+    "rate_uL_min": 0.5,
+    "profile": [
+      {
+        "x_H": 0.5,
+        "mean": 0.4999269038226351,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.1898809084121702,
+        "advective_time_s": 0.12
+      },
+      {
+        "x_H": 1.5,
+        "mean": 0.5000034999810383,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.2554300494637085,
+        "advective_time_s": 0.36
+      },
+      {
+        "x_H": 2.5,
+        "mean": 0.49993385238381416,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.31220234729377705,
+        "advective_time_s": 0.6
+      },
+      {
+        "x_H": 3.5,
+        "mean": 0.49977167720910437,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.3654645649926438,
+        "advective_time_s": 0.84
+      },
+      {
+        "x_H": 4.5,
+        "mean": 0.5001748466230518,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.4128917199936156,
+        "advective_time_s": 1.08
+      },
+      {
+        "x_H": 5.5,
+        "mean": 0.5001182698044858,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.45954538965657066,
+        "advective_time_s": 1.32
+      },
+      {
+        "x_H": 6.5,
+        "mean": 0.49952252699111843,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5007184059945101,
+        "advective_time_s": 1.56
+      },
+      {
+        "x_H": 7.5,
+        "mean": 0.5001279644646385,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5379204557111847,
+        "advective_time_s": 1.7999999999999998
+      },
+      {
+        "x_H": 8.5,
+        "mean": 0.5002705212821548,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5726354754379142,
+        "advective_time_s": 2.04
+      },
+      {
+        "x_H": 9.5,
+        "mean": 0.4995136755083852,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6046749037379033,
+        "advective_time_s": 2.28
+      },
+      {
+        "x_H": 10.5,
+        "mean": 0.49990370915999927,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6344248451987708,
+        "advective_time_s": 2.52
+      },
+      {
+        "x_H": 11.5,
+        "mean": 0.4998241544201715,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6618143159665446,
+        "advective_time_s": 2.76
+      },
+      {
+        "x_H": 12.5,
+        "mean": 0.4999977847282807,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6879138934050837,
+        "advective_time_s": 3.0
+      },
+      {
+        "x_H": 13.5,
+        "mean": 0.5000699314393448,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.711337201355653,
+        "advective_time_s": 3.2399999999999998
+      },
+      {
+        "x_H": 14.5,
+        "mean": 0.5002079269760553,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7333493801052291,
+        "advective_time_s": 3.48
+      },
+      {
+        "x_H": 15.5,
+        "mean": 0.5000227046449983,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7529256227074999,
+        "advective_time_s": 3.72
+      }
+    ],
+    "residence_time_s": 4.650000000000019,
+    "t90_s": null,
+    "c_min": -0.05385075475054166,
+    "c_max": 1.0446549488724495,
+    "depth_H": 0,
+    "h_H": 0.3,
+    "cells": 8281,
+    "flux": {
+      "1": -0.9999999999999997,
+      "2": -1.0,
+      "3": 1.9999999999999973,
+      "relative_imbalance": 1.165734175856416e-15
+    }
+  },
+  {
+    "U_m_s": 0.0016666666666666668,
+    "Pe_H": 166.66666666666666,
+    "Re_H": 0.16666666666666669,
+    "diffusion_time_s": 40.0,
+    "diffusion_length_m": 0.06666666666666667,
+    "ratio": 1,
+    "rate_uL_min": 2,
+    "profile": [
+      {
+        "x_H": 0.5,
+        "mean": 0.4998394956321045,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.11653195113681314,
+        "advective_time_s": 0.03
+      },
+      {
+        "x_H": 1.5,
+        "mean": 0.4997276741955808,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.14577233893524744,
+        "advective_time_s": 0.09
+      },
+      {
+        "x_H": 2.5,
+        "mean": 0.4998561546799575,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.17047453417308955,
+        "advective_time_s": 0.15
+      },
+      {
+        "x_H": 3.5,
+        "mean": 0.4996806044925531,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.19219919467048863,
+        "advective_time_s": 0.21
+      },
+      {
+        "x_H": 4.5,
+        "mean": 0.5002818572627808,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.2098352637171128,
+        "advective_time_s": 0.27
+      },
+      {
+        "x_H": 5.5,
+        "mean": 0.5001242760223574,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.23022349182672697,
+        "advective_time_s": 0.33
+      },
+      {
+        "x_H": 6.5,
+        "mean": 0.49932657447991236,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.24685310172828512,
+        "advective_time_s": 0.39
+      },
+      {
+        "x_H": 7.5,
+        "mean": 0.5001971845725525,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.2623962997176451,
+        "advective_time_s": 0.44999999999999996
+      },
+      {
+        "x_H": 8.5,
+        "mean": 0.5001204118185606,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.2776033384407647,
+        "advective_time_s": 0.51
+      },
+      {
+        "x_H": 9.5,
+        "mean": 0.49931096390949914,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.2927146646268002,
+        "advective_time_s": 0.57
+      },
+      {
+        "x_H": 10.5,
+        "mean": 0.4998691820224792,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.3077380969362792,
+        "advective_time_s": 0.63
+      },
+      {
+        "x_H": 11.5,
+        "mean": 0.49973364585791546,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.3218014396156722,
+        "advective_time_s": 0.69
+      },
+      {
+        "x_H": 12.5,
+        "mean": 0.4999079601894255,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.3370209219526644,
+        "advective_time_s": 0.75
+      },
+      {
+        "x_H": 13.5,
+        "mean": 0.5001094544302376,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.35067509287422993,
+        "advective_time_s": 0.8099999999999999
+      },
+      {
+        "x_H": 14.5,
+        "mean": 0.50035749563026,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.36460490201332985,
+        "advective_time_s": 0.87
+      },
+      {
+        "x_H": 15.5,
+        "mean": 0.49997131207980594,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.37797357483483096,
+        "advective_time_s": 0.93
+      }
+    ],
+    "residence_time_s": 1.1625000000000048,
+    "t90_s": null,
+    "c_min": -0.19371186166977564,
+    "c_max": 1.163057284538925,
+    "depth_H": 0,
+    "h_H": 0.3,
+    "cells": 8281,
+    "flux": {
+      "1": -0.9999999999999997,
+      "2": -1.0,
+      "3": 1.9999999999999973,
+      "relative_imbalance": 1.165734175856416e-15
+    }
+  },
+  {
+    "U_m_s": 8.333333333333334e-05,
+    "Pe_H": 8.333333333333334,
+    "Re_H": 0.008333333333333335,
+    "diffusion_time_s": 40.0,
+    "diffusion_length_m": 0.0033333333333333335,
+    "ratio": 3,
+    "rate_uL_min": 0.1,
+    "profile": [
+      {
+        "x_H": 0.5,
+        "mean": 0.2476639017706558,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5343902102369099,
+        "advective_time_s": 0.6
+      },
+      {
+        "x_H": 1.5,
+        "mean": 0.24994143488565956,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6745654982105715,
+        "advective_time_s": 1.8
+      },
+      {
+        "x_H": 2.5,
+        "mean": 0.2501482222873561,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7699768469137156,
+        "advective_time_s": 2.9999999999999996
+      },
+      {
+        "x_H": 3.5,
+        "mean": 0.25002029261854863,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.8377252242088126,
+        "advective_time_s": 4.199999999999999
+      },
+      {
+        "x_H": 4.5,
+        "mean": 0.25017190713989945,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.8846592866692777,
+        "advective_time_s": 5.3999999999999995
+      },
+      {
+        "x_H": 5.5,
+        "mean": 0.2501939873090338,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9186372825383462,
+        "advective_time_s": 6.6
+      },
+      {
+        "x_H": 6.5,
+        "mean": 0.25008269434038455,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9423445469216053,
+        "advective_time_s": 7.8
+      },
+      {
+        "x_H": 7.5,
+        "mean": 0.2501467975469229,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9589736376680122,
+        "advective_time_s": 8.999999999999998
+      },
+      {
+        "x_H": 8.5,
+        "mean": 0.25019419749259997,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9709541752775145,
+        "advective_time_s": 10.2
+      },
+      {
+        "x_H": 9.5,
+        "mean": 0.25010999217750113,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9793456050371495,
+        "advective_time_s": 11.399999999999999
+      },
+      {
+        "x_H": 10.5,
+        "mean": 0.25013784585652415,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9853277266981031,
+        "advective_time_s": 12.6
+      },
+      {
+        "x_H": 11.5,
+        "mean": 0.2501375239678259,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9896108087065493,
+        "advective_time_s": 13.799999999999997
+      },
+      {
+        "x_H": 12.5,
+        "mean": 0.2501434403763671,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9926482437640182,
+        "advective_time_s": 14.999999999999998
+      },
+      {
+        "x_H": 13.5,
+        "mean": 0.25014293218844424,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9947845769222038,
+        "advective_time_s": 16.2
+      },
+      {
+        "x_H": 14.5,
+        "mean": 0.2501448479462331,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9962999891201249,
+        "advective_time_s": 17.4
+      },
+      {
+        "x_H": 15.5,
+        "mean": 0.25014378913463886,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9973293321681843,
+        "advective_time_s": 18.599999999999998
+      }
+    ],
+    "residence_time_s": 23.250000000000092,
+    "t90_s": 6.6,
+    "c_min": 0.0,
+    "c_max": 1.0,
+    "depth_H": 0,
+    "h_H": 0.3,
+    "cells": 8281,
+    "flux": {
+      "1": -0.49999999999999983,
+      "2": -1.5000000000000002,
+      "3": 1.999999999999998,
+      "relative_imbalance": 1.0269562977782708e-15
+    }
+  },
+  {
+    "U_m_s": 0.0004166666666666667,
+    "Pe_H": 41.666666666666664,
+    "Re_H": 0.04166666666666667,
+    "diffusion_time_s": 40.0,
+    "diffusion_length_m": 0.016666666666666666,
+    "ratio": 3,
+    "rate_uL_min": 0.5,
+    "profile": [
+      {
+        "x_H": 0.5,
+        "mean": 0.24997870609994033,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.24669954263749716,
+        "advective_time_s": 0.12
+      },
+      {
+        "x_H": 1.5,
+        "mean": 0.25034128927588273,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.32800128749708124,
+        "advective_time_s": 0.36
+      },
+      {
+        "x_H": 2.5,
+        "mean": 0.25019271324320336,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.39330839616415403,
+        "advective_time_s": 0.6
+      },
+      {
+        "x_H": 3.5,
+        "mean": 0.24987447303622748,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.4501952895713688,
+        "advective_time_s": 0.84
+      },
+      {
+        "x_H": 4.5,
+        "mean": 0.2500718359694183,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.49572185160646864,
+        "advective_time_s": 1.08
+      },
+      {
+        "x_H": 5.5,
+        "mean": 0.2501593719939883,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5390920140357065,
+        "advective_time_s": 1.32
+      },
+      {
+        "x_H": 6.5,
+        "mean": 0.24959803677906903,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5760295182484763,
+        "advective_time_s": 1.56
+      },
+      {
+        "x_H": 7.5,
+        "mean": 0.25016179930873733,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6084013546129613,
+        "advective_time_s": 1.7999999999999998
+      },
+      {
+        "x_H": 8.5,
+        "mean": 0.2502308636688392,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6382874232230331,
+        "advective_time_s": 2.04
+      },
+      {
+        "x_H": 9.5,
+        "mean": 0.24962661425672203,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6659703380812461,
+        "advective_time_s": 2.28
+      },
+      {
+        "x_H": 10.5,
+        "mean": 0.24994353682276688,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6910288988026124,
+        "advective_time_s": 2.52
+      },
+      {
+        "x_H": 11.5,
+        "mean": 0.24988870947501043,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.714319946085096,
+        "advective_time_s": 2.76
+      },
+      {
+        "x_H": 12.5,
+        "mean": 0.2499833607331729,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7363206875384445,
+        "advective_time_s": 3.0
+      },
+      {
+        "x_H": 13.5,
+        "mean": 0.2500554812586869,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7560767690168753,
+        "advective_time_s": 3.2399999999999998
+      },
+      {
+        "x_H": 14.5,
+        "mean": 0.2501651396543947,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7747165018255682,
+        "advective_time_s": 3.48
+      },
+      {
+        "x_H": 15.5,
+        "mean": 0.2500191358307967,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7912471309748046,
+        "advective_time_s": 3.72
+      }
+    ],
+    "residence_time_s": 4.650000000000019,
+    "t90_s": null,
+    "c_min": -0.033410795224975726,
+    "c_max": 1.1163678383204867,
+    "depth_H": 0,
+    "h_H": 0.3,
+    "cells": 8281,
+    "flux": {
+      "1": -0.49999999999999983,
+      "2": -1.5000000000000002,
+      "3": 1.999999999999998,
+      "relative_imbalance": 1.0269562977782708e-15
+    }
+  },
+  {
+    "U_m_s": 0.0016666666666666668,
+    "Pe_H": 166.66666666666666,
+    "Re_H": 0.16666666666666669,
+    "diffusion_time_s": 40.0,
+    "diffusion_length_m": 0.06666666666666667,
+    "ratio": 3,
+    "rate_uL_min": 2,
+    "profile": [
+      {
+        "x_H": 0.5,
+        "mean": 0.25086556392601944,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.14662370602043484,
+        "advective_time_s": 0.03
+      },
+      {
+        "x_H": 1.5,
+        "mean": 0.25055165662110696,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.1827894837365318,
+        "advective_time_s": 0.09
+      },
+      {
+        "x_H": 2.5,
+        "mean": 0.25069775770892433,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.21546866986445168,
+        "advective_time_s": 0.15
+      },
+      {
+        "x_H": 3.5,
+        "mean": 0.25039436448298436,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.24813212151450226,
+        "advective_time_s": 0.21
+      },
+      {
+        "x_H": 4.5,
+        "mean": 0.25016157002179,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.27297192771124557,
+        "advective_time_s": 0.27
+      },
+      {
+        "x_H": 5.5,
+        "mean": 0.25055925388760064,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.3008164909950314,
+        "advective_time_s": 0.33
+      },
+      {
+        "x_H": 6.5,
+        "mean": 0.24957907320710185,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.32314116505108603,
+        "advective_time_s": 0.39
+      },
+      {
+        "x_H": 7.5,
+        "mean": 0.25052882981400554,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.34311274316717333,
+        "advective_time_s": 0.44999999999999996
+      },
+      {
+        "x_H": 8.5,
+        "mean": 0.25041385604208477,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.3613964814323022,
+        "advective_time_s": 0.51
+      },
+      {
+        "x_H": 9.5,
+        "mean": 0.24950598039809133,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.37985730478731095,
+        "advective_time_s": 0.57
+      },
+      {
+        "x_H": 10.5,
+        "mean": 0.25007931603759825,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.39473191306872846,
+        "advective_time_s": 0.63
+      },
+      {
+        "x_H": 11.5,
+        "mean": 0.25009842530526194,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.4099326605417961,
+        "advective_time_s": 0.69
+      },
+      {
+        "x_H": 12.5,
+        "mean": 0.24983909807194715,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.424543550769508,
+        "advective_time_s": 0.75
+      },
+      {
+        "x_H": 13.5,
+        "mean": 0.25027115096549063,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.4371987867185453,
+        "advective_time_s": 0.8099999999999999
+      },
+      {
+        "x_H": 14.5,
+        "mean": 0.25059354314448135,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.4507588065453175,
+        "advective_time_s": 0.87
+      },
+      {
+        "x_H": 15.5,
+        "mean": 0.25007204578673015,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.4629059002931153,
+        "advective_time_s": 0.93
+      }
+    ],
+    "residence_time_s": 1.1625000000000048,
+    "t90_s": null,
+    "c_min": -0.09107142349018744,
+    "c_max": 1.2730723102487673,
+    "depth_H": 0,
+    "h_H": 0.3,
+    "cells": 8281,
+    "flux": {
+      "1": -0.49999999999999983,
+      "2": -1.5000000000000002,
+      "3": 1.999999999999998,
+      "relative_imbalance": 1.0269562977782708e-15
+    }
+  },
+  {
+    "U_m_s": 8.333333333333334e-05,
+    "Pe_H": 8.333333333333334,
+    "Re_H": 0.008333333333333335,
+    "diffusion_time_s": 40.0,
+    "diffusion_length_m": 0.0033333333333333335,
+    "ratio": 5,
+    "rate_uL_min": 0.1,
+    "profile": [
+      {
+        "x_H": 0.5,
+        "mean": 0.16468206249551506,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6008791203075177,
+        "advective_time_s": 0.6
+      },
+      {
+        "x_H": 1.5,
+        "mean": 0.16691614182747064,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7242645260280132,
+        "advective_time_s": 1.8
+      },
+      {
+        "x_H": 2.5,
+        "mean": 0.16711284981533583,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.805751921593412,
+        "advective_time_s": 2.9999999999999996
+      },
+      {
+        "x_H": 3.5,
+        "mean": 0.16703846615964418,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.8630970277097678,
+        "advective_time_s": 4.199999999999999
+      },
+      {
+        "x_H": 4.5,
+        "mean": 0.16715637053898078,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9027033841695016,
+        "advective_time_s": 5.3999999999999995
+      },
+      {
+        "x_H": 5.5,
+        "mean": 0.16717427783176517,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9313697252308012,
+        "advective_time_s": 6.6
+      },
+      {
+        "x_H": 6.5,
+        "mean": 0.16709411696992085,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9513683003835035,
+        "advective_time_s": 7.8
+      },
+      {
+        "x_H": 7.5,
+        "mean": 0.1671409567087461,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9653948425479999,
+        "advective_time_s": 8.999999999999998
+      },
+      {
+        "x_H": 8.5,
+        "mean": 0.16717537927132892,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9755002015706502,
+        "advective_time_s": 10.2
+      },
+      {
+        "x_H": 9.5,
+        "mean": 0.16711426661782605,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9825783235274304,
+        "advective_time_s": 11.399999999999999
+      },
+      {
+        "x_H": 10.5,
+        "mean": 0.16713450061126733,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9876241352216164,
+        "advective_time_s": 12.6
+      },
+      {
+        "x_H": 11.5,
+        "mean": 0.16713426846613455,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9912368582234484,
+        "advective_time_s": 13.799999999999997
+      },
+      {
+        "x_H": 12.5,
+        "mean": 0.16713856392312013,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9937988912030797,
+        "advective_time_s": 14.999999999999998
+      },
+      {
+        "x_H": 13.5,
+        "mean": 0.1671381954634158,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9956008596260364,
+        "advective_time_s": 16.2
+      },
+      {
+        "x_H": 14.5,
+        "mean": 0.16713958638215679,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9968790899027461,
+        "advective_time_s": 17.4
+      },
+      {
+        "x_H": 15.5,
+        "mean": 0.1671388177424668,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9977473270586285,
+        "advective_time_s": 18.599999999999998
+      }
+    ],
+    "residence_time_s": 23.250000000000092,
+    "t90_s": 5.3999999999999995,
+    "c_min": -0.0010455512039114258,
+    "c_max": 1.0,
+    "depth_H": 0,
+    "h_H": 0.3,
+    "cells": 8281,
+    "flux": {
+      "1": -0.33333333333333337,
+      "2": -1.6666666666666663,
+      "3": 1.9999999999999973,
+      "relative_imbalance": 1.165734175856416e-15
+    }
+  },
+  {
+    "U_m_s": 0.0004166666666666667,
+    "Pe_H": 41.666666666666664,
+    "Re_H": 0.04166666666666667,
+    "diffusion_time_s": 40.0,
+    "diffusion_length_m": 0.016666666666666666,
+    "ratio": 5,
+    "rate_uL_min": 0.5,
+    "profile": [
+      {
+        "x_H": 0.5,
+        "mean": 0.16671061239412963,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.31049267394884905,
+        "advective_time_s": 0.12
+      },
+      {
+        "x_H": 1.5,
+        "mean": 0.16702762884708314,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.40351484348627775,
+        "advective_time_s": 0.36
+      },
+      {
+        "x_H": 2.5,
+        "mean": 0.16685542683907562,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.47221908533214907,
+        "advective_time_s": 0.6
+      },
+      {
+        "x_H": 3.5,
+        "mean": 0.16659496613422253,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5275444585310805,
+        "advective_time_s": 0.84
+      },
+      {
+        "x_H": 4.5,
+        "mean": 0.16670522217815115,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5695199043181138,
+        "advective_time_s": 1.08
+      },
+      {
+        "x_H": 5.5,
+        "mean": 0.16679991907637662,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6083886157840459,
+        "advective_time_s": 1.32
+      },
+      {
+        "x_H": 6.5,
+        "mean": 0.1663659193860916,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6408189739673564,
+        "advective_time_s": 1.56
+      },
+      {
+        "x_H": 7.5,
+        "mean": 0.1668014299267235,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6687704280709874,
+        "advective_time_s": 1.7999999999999998
+      },
+      {
+        "x_H": 8.5,
+        "mean": 0.16684370905750706,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6943369804189626,
+        "advective_time_s": 2.04
+      },
+      {
+        "x_H": 9.5,
+        "mean": 0.16639323757968508,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7179761302651783,
+        "advective_time_s": 2.28
+      },
+      {
+        "x_H": 10.5,
+        "mean": 0.16663074880146173,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7391633530059081,
+        "advective_time_s": 2.52
+      },
+      {
+        "x_H": 11.5,
+        "mean": 0.16659170363475323,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.758891355394639,
+        "advective_time_s": 2.76
+      },
+      {
+        "x_H": 12.5,
+        "mean": 0.16665294008614215,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7774626187160469,
+        "advective_time_s": 3.0
+      },
+      {
+        "x_H": 13.5,
+        "mean": 0.166709803800739,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7941361336479926,
+        "advective_time_s": 3.2399999999999998
+      },
+      {
+        "x_H": 14.5,
+        "mean": 0.16679145863852693,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.8098827793874686,
+        "advective_time_s": 3.48
+      },
+      {
+        "x_H": 15.5,
+        "mean": 0.16668299157146996,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.823833417340216,
+        "advective_time_s": 3.72
+      }
+    ],
+    "residence_time_s": 4.650000000000019,
+    "t90_s": null,
+    "c_min": -0.024691086956236185,
+    "c_max": 1.044114954134388,
+    "depth_H": 0,
+    "h_H": 0.3,
+    "cells": 8281,
+    "flux": {
+      "1": -0.33333333333333337,
+      "2": -1.6666666666666663,
+      "3": 1.9999999999999973,
+      "relative_imbalance": 1.165734175856416e-15
+    }
+  },
+  {
+    "U_m_s": 0.0016666666666666668,
+    "Pe_H": 166.66666666666666,
+    "Re_H": 0.16666666666666669,
+    "diffusion_time_s": 40.0,
+    "diffusion_length_m": 0.06666666666666667,
+    "ratio": 5,
+    "rate_uL_min": 2,
+    "profile": [
+      {
+        "x_H": 0.5,
+        "mean": 0.16786060511437773,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.17817941115468372,
+        "advective_time_s": 0.03
+      },
+      {
+        "x_H": 1.5,
+        "mean": 0.167455625655936,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.23029611958152318,
+        "advective_time_s": 0.09
+      },
+      {
+        "x_H": 2.5,
+        "mean": 0.16738491253467055,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.2768669725488383,
+        "advective_time_s": 0.15
+      },
+      {
+        "x_H": 3.5,
+        "mean": 0.16719164631914818,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.3172120330427881,
+        "advective_time_s": 0.21
+      },
+      {
+        "x_H": 4.5,
+        "mean": 0.16675452210155411,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.3461677290971641,
+        "advective_time_s": 0.27
+      },
+      {
+        "x_H": 5.5,
+        "mean": 0.16717668728624266,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.37671685271167166,
+        "advective_time_s": 0.33
+      },
+      {
+        "x_H": 6.5,
+        "mean": 0.16640629908762458,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.4009637438468938,
+        "advective_time_s": 0.39
+      },
+      {
+        "x_H": 7.5,
+        "mean": 0.16713918258369828,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.42253066001630935,
+        "advective_time_s": 0.44999999999999996
+      },
+      {
+        "x_H": 8.5,
+        "mean": 0.1670454787494816,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.44136184875648876,
+        "advective_time_s": 0.51
+      },
+      {
+        "x_H": 9.5,
+        "mean": 0.1663097420660613,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.4602242045578161,
+        "advective_time_s": 0.57
+      },
+      {
+        "x_H": 10.5,
+        "mean": 0.1667702893695504,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.4748473286997894,
+        "advective_time_s": 0.63
+      },
+      {
+        "x_H": 11.5,
+        "mean": 0.1668129628457418,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.4896397733561588,
+        "advective_time_s": 0.69
+      },
+      {
+        "x_H": 12.5,
+        "mean": 0.16652516837640838,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5033900146469673,
+        "advective_time_s": 0.75
+      },
+      {
+        "x_H": 13.5,
+        "mean": 0.1669129563204485,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5151598224127134,
+        "advective_time_s": 0.8099999999999999
+      },
+      {
+        "x_H": 14.5,
+        "mean": 0.16718221585644616,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5277061991945982,
+        "advective_time_s": 0.87
+      },
+      {
+        "x_H": 15.5,
+        "mean": 0.16674297261528562,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5387228838532621,
+        "advective_time_s": 0.93
+      }
+    ],
+    "residence_time_s": 1.1625000000000048,
+    "t90_s": null,
+    "c_min": -0.06261169760324448,
+    "c_max": 1.2810671239574076,
+    "depth_H": 0,
+    "h_H": 0.3,
+    "cells": 8281,
+    "flux": {
+      "1": -0.33333333333333337,
+      "2": -1.6666666666666663,
+      "3": 1.9999999999999973,
+      "relative_imbalance": 1.165734175856416e-15
+    }
+  },
+  {
+    "U_m_s": 8.333333333333334e-05,
+    "Pe_H": 8.333333333333334,
+    "Re_H": 0.008333333333333335,
+    "diffusion_time_s": 40.0,
+    "diffusion_length_m": 0.0033333333333333335,
+    "ratio": 1,
+    "rate_uL_min": 0.1,
+    "profile": [
+      {
+        "x_H": 0.5,
+        "mean": 0.5002045407589876,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.460394456215903,
+        "advective_time_s": 0.6
+      },
+      {
+        "x_H": 1.5,
+        "mean": 0.5003628227829198,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6192018741119495,
+        "advective_time_s": 1.8
+      },
+      {
+        "x_H": 2.5,
+        "mean": 0.49996409734748304,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7382574568463511,
+        "advective_time_s": 2.9999999999999996
+      },
+      {
+        "x_H": 3.5,
+        "mean": 0.4995825584474253,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.8188650759265321,
+        "advective_time_s": 4.199999999999999
+      },
+      {
+        "x_H": 4.5,
+        "mean": 0.5000765433986714,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.8728960267177895,
+        "advective_time_s": 5.3999999999999995
+      },
+      {
+        "x_H": 5.5,
+        "mean": 0.5001351387791267,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9131276214600058,
+        "advective_time_s": 6.6
+      },
+      {
+        "x_H": 6.5,
+        "mean": 0.5000020907261742,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9397941345007529,
+        "advective_time_s": 7.8
+      },
+      {
+        "x_H": 7.5,
+        "mean": 0.5000057922836105,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9576843506892508,
+        "advective_time_s": 8.999999999999998
+      },
+      {
+        "x_H": 8.5,
+        "mean": 0.5000181435474041,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9709944492854886,
+        "advective_time_s": 10.2
+      },
+      {
+        "x_H": 9.5,
+        "mean": 0.49990964705478197,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.979770526182555,
+        "advective_time_s": 11.399999999999999
+      },
+      {
+        "x_H": 10.5,
+        "mean": 0.49998837336604984,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9858216887494472,
+        "advective_time_s": 12.6
+      },
+      {
+        "x_H": 11.5,
+        "mean": 0.5000188399062501,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9902736696817664,
+        "advective_time_s": 13.799999999999997
+      },
+      {
+        "x_H": 12.5,
+        "mean": 0.5000087977891046,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9932488124979092,
+        "advective_time_s": 14.999999999999998
+      },
+      {
+        "x_H": 13.5,
+        "mean": 0.4999937710712457,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9952469756571444,
+        "advective_time_s": 16.2
+      },
+      {
+        "x_H": 14.5,
+        "mean": 0.5000001707744538,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9966267105839667,
+        "advective_time_s": 17.4
+      },
+      {
+        "x_H": 15.5,
+        "mean": 0.4999996199449979,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.997565254582936,
+        "advective_time_s": 18.599999999999998
+      }
+    ],
+    "residence_time_s": 24.335523554650795,
+    "t90_s": 6.6,
+    "c_min": 0.0,
+    "c_max": 1.0,
+    "depth_H": 0.25,
+    "h_H": 0.3,
+    "cells": 8281,
+    "flux": {
+      "1": -0.9999999999999997,
+      "2": -1.0,
+      "3": 2.0000000000000067,
+      "relative_imbalance": 3.4972025275692313e-15
+    }
+  },
+  {
+    "U_m_s": 0.0004166666666666667,
+    "Pe_H": 41.666666666666664,
+    "Re_H": 0.04166666666666667,
+    "diffusion_time_s": 40.0,
+    "diffusion_length_m": 0.016666666666666666,
+    "ratio": 1,
+    "rate_uL_min": 0.5,
+    "profile": [
+      {
+        "x_H": 0.5,
+        "mean": 0.4999636517982976,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.18988355094756715,
+        "advective_time_s": 0.12
+      },
+      {
+        "x_H": 1.5,
+        "mean": 0.5001438881433987,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.25674510554764707,
+        "advective_time_s": 0.36
+      },
+      {
+        "x_H": 2.5,
+        "mean": 0.500222459947513,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.31966563883523513,
+        "advective_time_s": 0.6
+      },
+      {
+        "x_H": 3.5,
+        "mean": 0.49915799981045894,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.3768374415018315,
+        "advective_time_s": 0.84
+      },
+      {
+        "x_H": 4.5,
+        "mean": 0.5004483616360432,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.42590142952815524,
+        "advective_time_s": 1.08
+      },
+      {
+        "x_H": 5.5,
+        "mean": 0.5000383648676376,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.47700017757695445,
+        "advective_time_s": 1.32
+      },
+      {
+        "x_H": 6.5,
+        "mean": 0.4997189505594381,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5204586387853553,
+        "advective_time_s": 1.56
+      },
+      {
+        "x_H": 7.5,
+        "mean": 0.5001820619919252,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5580811882509547,
+        "advective_time_s": 1.7999999999999998
+      },
+      {
+        "x_H": 8.5,
+        "mean": 0.5003440235868996,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5956354461103879,
+        "advective_time_s": 2.04
+      },
+      {
+        "x_H": 9.5,
+        "mean": 0.4988378189862302,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6277423372198145,
+        "advective_time_s": 2.28
+      },
+      {
+        "x_H": 10.5,
+        "mean": 0.49993389070752536,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.657434421388021,
+        "advective_time_s": 2.52
+      },
+      {
+        "x_H": 11.5,
+        "mean": 0.5002899028605187,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6864146240301965,
+        "advective_time_s": 2.76
+      },
+      {
+        "x_H": 12.5,
+        "mean": 0.5003065749458526,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7120171307667474,
+        "advective_time_s": 3.0
+      },
+      {
+        "x_H": 13.5,
+        "mean": 0.4998985658138746,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7347469730536775,
+        "advective_time_s": 3.2399999999999998
+      },
+      {
+        "x_H": 14.5,
+        "mean": 0.500194492920845,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7550412882977136,
+        "advective_time_s": 3.48
+      },
+      {
+        "x_H": 15.5,
+        "mean": 0.5000217780855764,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7730274579276619,
+        "advective_time_s": 3.72
+      }
+    ],
+    "residence_time_s": 4.8671047109301595,
+    "t90_s": null,
+    "c_min": -0.05531171133095822,
+    "c_max": 1.044267933268488,
+    "depth_H": 0.25,
+    "h_H": 0.3,
+    "cells": 8281,
+    "flux": {
+      "1": -0.9999999999999997,
+      "2": -1.0,
+      "3": 2.0000000000000067,
+      "relative_imbalance": 3.4972025275692313e-15
+    }
+  },
+  {
+    "U_m_s": 0.0016666666666666668,
+    "Pe_H": 166.66666666666666,
+    "Re_H": 0.16666666666666669,
+    "diffusion_time_s": 40.0,
+    "diffusion_length_m": 0.06666666666666667,
+    "ratio": 1,
+    "rate_uL_min": 2,
+    "profile": [
+      {
+        "x_H": 0.5,
+        "mean": 0.4998477344467307,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.11653934027849977,
+        "advective_time_s": 0.03
+      },
+      {
+        "x_H": 1.5,
+        "mean": 0.4998710233273282,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.14682168917471883,
+        "advective_time_s": 0.09
+      },
+      {
+        "x_H": 2.5,
+        "mean": 0.5003930966086442,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.17369454523459849,
+        "advective_time_s": 0.15
+      },
+      {
+        "x_H": 3.5,
+        "mean": 0.49897462211616994,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.19840168942627168,
+        "advective_time_s": 0.21
+      },
+      {
+        "x_H": 4.5,
+        "mean": 0.5005988384336442,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.2170036900211879,
+        "advective_time_s": 0.27
+      },
+      {
+        "x_H": 5.5,
+        "mean": 0.49990373740921823,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.24021604171948108,
+        "advective_time_s": 0.33
+      },
+      {
+        "x_H": 6.5,
+        "mean": 0.4994092368244517,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.259455475638406,
+        "advective_time_s": 0.39
+      },
+      {
+        "x_H": 7.5,
+        "mean": 0.5002733755463106,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.2756664408490612,
+        "advective_time_s": 0.44999999999999996
+      },
+      {
+        "x_H": 8.5,
+        "mean": 0.5004126670792596,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.29389921914755923,
+        "advective_time_s": 0.51
+      },
+      {
+        "x_H": 9.5,
+        "mean": 0.4982178416221254,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.30930662872704395,
+        "advective_time_s": 0.57
+      },
+      {
+        "x_H": 10.5,
+        "mean": 0.49999329280867344,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.3255430923018635,
+        "advective_time_s": 0.63
+      },
+      {
+        "x_H": 11.5,
+        "mean": 0.5004182945783604,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.342219616751397,
+        "advective_time_s": 0.69
+      },
+      {
+        "x_H": 12.5,
+        "mean": 0.5005061652248554,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.3578921858617544,
+        "advective_time_s": 0.75
+      },
+      {
+        "x_H": 13.5,
+        "mean": 0.4997530679135672,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.37251398368106026,
+        "advective_time_s": 0.8099999999999999
+      },
+      {
+        "x_H": 14.5,
+        "mean": 0.5003828569536594,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.3863143462540558,
+        "advective_time_s": 0.87
+      },
+      {
+        "x_H": 15.5,
+        "mean": 0.49996669036418656,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.39917390222842164,
+        "advective_time_s": 0.93
+      }
+    ],
+    "residence_time_s": 1.2167761777325399,
+    "t90_s": null,
+    "c_min": -0.19517018532040134,
+    "c_max": 1.1560084485242557,
+    "depth_H": 0.25,
+    "h_H": 0.3,
+    "cells": 8281,
+    "flux": {
+      "1": -0.9999999999999997,
+      "2": -1.0,
+      "3": 2.0000000000000067,
+      "relative_imbalance": 3.4972025275692313e-15
+    }
+  },
+  {
+    "U_m_s": 8.333333333333334e-05,
+    "Pe_H": 8.333333333333334,
+    "Re_H": 0.008333333333333335,
+    "diffusion_time_s": 40.0,
+    "diffusion_length_m": 0.0033333333333333335,
+    "ratio": 3,
+    "rate_uL_min": 0.1,
+    "profile": [
+      {
+        "x_H": 0.5,
+        "mean": 0.24776939050542546,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5343144054416669,
+        "advective_time_s": 0.6
+      },
+      {
+        "x_H": 1.5,
+        "mean": 0.2501344058082133,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6762880821590076,
+        "advective_time_s": 1.8
+      },
+      {
+        "x_H": 2.5,
+        "mean": 0.2499744172597441,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7785836721966812,
+        "advective_time_s": 2.9999999999999996
+      },
+      {
+        "x_H": 3.5,
+        "mean": 0.2497920774399124,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.8469494829642161,
+        "advective_time_s": 4.199999999999999
+      },
+      {
+        "x_H": 4.5,
+        "mean": 0.2501897704273542,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.8926698441982104,
+        "advective_time_s": 5.3999999999999995
+      },
+      {
+        "x_H": 5.5,
+        "mean": 0.2502375240066659,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9266421627477738,
+        "advective_time_s": 6.6
+      },
+      {
+        "x_H": 6.5,
+        "mean": 0.2501436493993953,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9491665279474994,
+        "advective_time_s": 7.8
+      },
+      {
+        "x_H": 7.5,
+        "mean": 0.25014785256152233,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9642695771965086,
+        "advective_time_s": 8.999999999999998
+      },
+      {
+        "x_H": 8.5,
+        "mean": 0.2501568321531468,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9755084127300069,
+        "advective_time_s": 10.2
+      },
+      {
+        "x_H": 9.5,
+        "mean": 0.25007758134652336,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9829187413414872,
+        "advective_time_s": 11.399999999999999
+      },
+      {
+        "x_H": 10.5,
+        "mean": 0.2501351829917727,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9880282216349179,
+        "advective_time_s": 12.6
+      },
+      {
+        "x_H": 11.5,
+        "mean": 0.25015746583235626,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9917873428234115,
+        "advective_time_s": 13.799999999999997
+      },
+      {
+        "x_H": 12.5,
+        "mean": 0.25015012525595254,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9942994738131156,
+        "advective_time_s": 14.999999999999998
+      },
+      {
+        "x_H": 13.5,
+        "mean": 0.2501391381365577,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9959866679113298,
+        "advective_time_s": 16.2
+      },
+      {
+        "x_H": 14.5,
+        "mean": 0.25014381833490895,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9971516811919422,
+        "advective_time_s": 17.4
+      },
+      {
+        "x_H": 15.5,
+        "mean": 0.2501434155752015,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9979441635037691,
+        "advective_time_s": 18.599999999999998
+      }
+    ],
+    "residence_time_s": 24.335523554650795,
+    "t90_s": 6.6,
+    "c_min": 0.0,
+    "c_max": 1.0,
+    "depth_H": 0.25,
+    "h_H": 0.3,
+    "cells": 8281,
+    "flux": {
+      "1": -0.49999999999999983,
+      "2": -1.5000000000000002,
+      "3": 2.0000000000000067,
+      "relative_imbalance": 3.3029134982598297e-15
+    }
+  },
+  {
+    "U_m_s": 0.0004166666666666667,
+    "Pe_H": 41.666666666666664,
+    "Re_H": 0.04166666666666667,
+    "diffusion_time_s": 40.0,
+    "diffusion_length_m": 0.016666666666666666,
+    "ratio": 3,
+    "rate_uL_min": 0.5,
+    "profile": [
+      {
+        "x_H": 0.5,
+        "mean": 0.2499938942032844,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.24656492808092878,
+        "advective_time_s": 0.12
+      },
+      {
+        "x_H": 1.5,
+        "mean": 0.25053707310619583,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.32853395074230307,
+        "advective_time_s": 0.36
+      },
+      {
+        "x_H": 2.5,
+        "mean": 0.2504276275012097,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.400395131810784,
+        "advective_time_s": 0.6
+      },
+      {
+        "x_H": 3.5,
+        "mean": 0.2493679957007221,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.45949913458864355,
+        "advective_time_s": 0.84
+      },
+      {
+        "x_H": 4.5,
+        "mean": 0.25039630159268217,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5078073239183436,
+        "advective_time_s": 1.08
+      },
+      {
+        "x_H": 5.5,
+        "mean": 0.2500624217242738,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5543228471555519,
+        "advective_time_s": 1.32
+      },
+      {
+        "x_H": 6.5,
+        "mean": 0.24970078694488584,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5932491731247553,
+        "advective_time_s": 1.56
+      },
+      {
+        "x_H": 7.5,
+        "mean": 0.2502241935584615,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6252250725287294,
+        "advective_time_s": 1.7999999999999998
+      },
+      {
+        "x_H": 8.5,
+        "mean": 0.25025248488176893,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6575795678003564,
+        "advective_time_s": 2.04
+      },
+      {
+        "x_H": 9.5,
+        "mean": 0.2491473959662072,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6850359789687527,
+        "advective_time_s": 2.28
+      },
+      {
+        "x_H": 10.5,
+        "mean": 0.24996474476529734,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7103011723562458,
+        "advective_time_s": 2.52
+      },
+      {
+        "x_H": 11.5,
+        "mean": 0.2502173950286845,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7348513789647542,
+        "advective_time_s": 2.76
+      },
+      {
+        "x_H": 12.5,
+        "mean": 0.25021819313006693,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7564974115146603,
+        "advective_time_s": 3.0
+      },
+      {
+        "x_H": 13.5,
+        "mean": 0.24993032663579762,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7756336779553725,
+        "advective_time_s": 3.2399999999999998
+      },
+      {
+        "x_H": 14.5,
+        "mean": 0.2501516243245583,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7928239590556704,
+        "advective_time_s": 3.48
+      },
+      {
+        "x_H": 15.5,
+        "mean": 0.25001785886716993,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.8080276026578411,
+        "advective_time_s": 3.72
+      }
+    ],
+    "residence_time_s": 4.8671047109301595,
+    "t90_s": null,
+    "c_min": -0.03293535961334613,
+    "c_max": 1.1161905366218055,
+    "depth_H": 0.25,
+    "h_H": 0.3,
+    "cells": 8281,
+    "flux": {
+      "1": -0.49999999999999983,
+      "2": -1.5000000000000002,
+      "3": 2.0000000000000067,
+      "relative_imbalance": 3.3029134982598297e-15
+    }
+  },
+  {
+    "U_m_s": 0.0016666666666666668,
+    "Pe_H": 166.66666666666666,
+    "Re_H": 0.16666666666666669,
+    "diffusion_time_s": 40.0,
+    "diffusion_length_m": 0.06666666666666667,
+    "ratio": 3,
+    "rate_uL_min": 2,
+    "profile": [
+      {
+        "x_H": 0.5,
+        "mean": 0.25084676118475424,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.1465698713303497,
+        "advective_time_s": 0.03
+      },
+      {
+        "x_H": 1.5,
+        "mean": 0.2506720012942284,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.183193822062526,
+        "advective_time_s": 0.09
+      },
+      {
+        "x_H": 2.5,
+        "mean": 0.25127217809757324,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.22057496769980378,
+        "advective_time_s": 0.15
+      },
+      {
+        "x_H": 3.5,
+        "mean": 0.24969835429977344,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.25442652228109564,
+        "advective_time_s": 0.21
+      },
+      {
+        "x_H": 4.5,
+        "mean": 0.2507848035029588,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.2838145422769982,
+        "advective_time_s": 0.27
+      },
+      {
+        "x_H": 5.5,
+        "mean": 0.2503990157374597,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.31354263705100904,
+        "advective_time_s": 0.33
+      },
+      {
+        "x_H": 6.5,
+        "mean": 0.24939395667469832,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.339163869661383,
+        "advective_time_s": 0.39
+      },
+      {
+        "x_H": 7.5,
+        "mean": 0.25067271214514447,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.35762044017897954,
+        "advective_time_s": 0.44999999999999996
+      },
+      {
+        "x_H": 8.5,
+        "mean": 0.2503965509056469,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.37902600069687375,
+        "advective_time_s": 0.51
+      },
+      {
+        "x_H": 9.5,
+        "mean": 0.24874856515470747,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.3958640869252247,
+        "advective_time_s": 0.57
+      },
+      {
+        "x_H": 10.5,
+        "mean": 0.25018728453478817,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.4128957651436552,
+        "advective_time_s": 0.63
+      },
+      {
+        "x_H": 11.5,
+        "mean": 0.2504906145325778,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.42927910857624585,
+        "advective_time_s": 0.69
+      },
+      {
+        "x_H": 12.5,
+        "mean": 0.25036840155047024,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.4443093907870309,
+        "advective_time_s": 0.75
+      },
+      {
+        "x_H": 13.5,
+        "mean": 0.25002060553006583,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.4572165981561801,
+        "advective_time_s": 0.8099999999999999
+      },
+      {
+        "x_H": 14.5,
+        "mean": 0.25056412230369957,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.47019041261460426,
+        "advective_time_s": 0.87
+      },
+      {
+        "x_H": 15.5,
+        "mean": 0.2500819353257836,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.4816500527279557,
+        "advective_time_s": 0.93
+      }
+    ],
+    "residence_time_s": 1.2167761777325399,
+    "t90_s": null,
+    "c_min": -0.09157299967956169,
+    "c_max": 1.27219377834525,
+    "depth_H": 0.25,
+    "h_H": 0.3,
+    "cells": 8281,
+    "flux": {
+      "1": -0.49999999999999983,
+      "2": -1.5000000000000002,
+      "3": 2.0000000000000067,
+      "relative_imbalance": 3.3029134982598297e-15
+    }
+  },
+  {
+    "U_m_s": 8.333333333333334e-05,
+    "Pe_H": 8.333333333333334,
+    "Re_H": 0.008333333333333335,
+    "diffusion_time_s": 40.0,
+    "diffusion_length_m": 0.0033333333333333335,
+    "ratio": 5,
+    "rate_uL_min": 0.1,
+    "profile": [
+      {
+        "x_H": 0.5,
+        "mean": 0.16475889396191706,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.600776726431588,
+        "advective_time_s": 0.6
+      },
+      {
+        "x_H": 1.5,
+        "mean": 0.16706290579514732,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7256257088072626,
+        "advective_time_s": 1.8
+      },
+      {
+        "x_H": 2.5,
+        "mean": 0.16698347250782297,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.8129675821595026,
+        "advective_time_s": 2.9999999999999996
+      },
+      {
+        "x_H": 3.5,
+        "mean": 0.16687327658346743,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.8708149411753723,
+        "advective_time_s": 4.199999999999999
+      },
+      {
+        "x_H": 4.5,
+        "mean": 0.16716998029591149,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9094311586447873,
+        "advective_time_s": 5.3999999999999995
+      },
+      {
+        "x_H": 5.5,
+        "mean": 0.16720572407017498,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9380992966866726,
+        "advective_time_s": 6.6
+      },
+      {
+        "x_H": 6.5,
+        "mean": 0.16713829301158714,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.957107544492179,
+        "advective_time_s": 7.8
+      },
+      {
+        "x_H": 7.5,
+        "mean": 0.16714167012874395,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9698507337135557,
+        "advective_time_s": 8.999999999999998
+      },
+      {
+        "x_H": 8.5,
+        "mean": 0.16714817994423384,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9793340654561493,
+        "advective_time_s": 10.2
+      },
+      {
+        "x_H": 9.5,
+        "mean": 0.16709064504259546,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9855868864808871,
+        "advective_time_s": 11.399999999999999
+      },
+      {
+        "x_H": 10.5,
+        "mean": 0.16713248394158953,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9898982581435591,
+        "advective_time_s": 12.6
+      },
+      {
+        "x_H": 11.5,
+        "mean": 0.1671486671973322,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9930701881076275,
+        "advective_time_s": 13.799999999999997
+      },
+      {
+        "x_H": 12.5,
+        "mean": 0.1671433368811581,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9951899152847639,
+        "advective_time_s": 14.999999999999998
+      },
+      {
+        "x_H": 13.5,
+        "mean": 0.16713535801627352,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9966135632958726,
+        "advective_time_s": 16.2
+      },
+      {
+        "x_H": 14.5,
+        "mean": 0.16713875698223266,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9975965978613482,
+        "advective_time_s": 17.4
+      },
+      {
+        "x_H": 15.5,
+        "mean": 0.16713846449561828,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.9982652918318069,
+        "advective_time_s": 18.599999999999998
+      }
+    ],
+    "residence_time_s": 24.335523554650795,
+    "t90_s": 5.3999999999999995,
+    "c_min": -0.001042196089029563,
+    "c_max": 1.0,
+    "depth_H": 0.25,
+    "h_H": 0.3,
+    "cells": 8281,
+    "flux": {
+      "1": -0.33333333333333337,
+      "2": -1.6666666666666663,
+      "3": 2.0000000000000058,
+      "relative_imbalance": 3.053113317719172e-15
+    }
+  },
+  {
+    "U_m_s": 0.0004166666666666667,
+    "Pe_H": 41.666666666666664,
+    "Re_H": 0.04166666666666667,
+    "diffusion_time_s": 40.0,
+    "diffusion_length_m": 0.016666666666666666,
+    "ratio": 5,
+    "rate_uL_min": 0.5,
+    "profile": [
+      {
+        "x_H": 0.5,
+        "mean": 0.16672166429451954,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.31029963786134107,
+        "advective_time_s": 0.12
+      },
+      {
+        "x_H": 1.5,
+        "mean": 0.167163149853139,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.40367946247149367,
+        "advective_time_s": 0.36
+      },
+      {
+        "x_H": 2.5,
+        "mean": 0.16703203830980465,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.47879419609946505,
+        "advective_time_s": 0.6
+      },
+      {
+        "x_H": 3.5,
+        "mean": 0.1662262120001836,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5355351414280112,
+        "advective_time_s": 0.84
+      },
+      {
+        "x_H": 4.5,
+        "mean": 0.16697147868760906,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5802566799439236,
+        "advective_time_s": 1.08
+      },
+      {
+        "x_H": 5.5,
+        "mean": 0.16672176468455277,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6215260462987804,
+        "advective_time_s": 1.32
+      },
+      {
+        "x_H": 6.5,
+        "mean": 0.1664291789904158,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6555785248215993,
+        "advective_time_s": 1.56
+      },
+      {
+        "x_H": 7.5,
+        "mean": 0.1668520916189678,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.6829399726936946,
+        "advective_time_s": 1.7999999999999998
+      },
+      {
+        "x_H": 8.5,
+        "mean": 0.1668521193410451,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7105798675092279,
+        "advective_time_s": 2.04
+      },
+      {
+        "x_H": 9.5,
+        "mean": 0.16604865865166418,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.733930314725306,
+        "advective_time_s": 2.28
+      },
+      {
+        "x_H": 10.5,
+        "mean": 0.16664594648871076,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7553496669686673,
+        "advective_time_s": 2.52
+      },
+      {
+        "x_H": 11.5,
+        "mean": 0.16682766712466415,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7761132060640161,
+        "advective_time_s": 2.76
+      },
+      {
+        "x_H": 12.5,
+        "mean": 0.1668255706282193,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.7944010472416619,
+        "advective_time_s": 3.0
+      },
+      {
+        "x_H": 13.5,
+        "mean": 0.16661895210855554,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.8105424533779471,
+        "advective_time_s": 3.2399999999999998
+      },
+      {
+        "x_H": 14.5,
+        "mean": 0.16678082696194402,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.8250675688410251,
+        "advective_time_s": 3.48
+      },
+      {
+        "x_H": 15.5,
+        "mean": 0.16668192951565608,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.8379044511524644,
+        "advective_time_s": 3.72
+      }
+    ],
+    "residence_time_s": 4.8671047109301595,
+    "t90_s": null,
+    "c_min": -0.025243186182812346,
+    "c_max": 1.0441613520462405,
+    "depth_H": 0.25,
+    "h_H": 0.3,
+    "cells": 8281,
+    "flux": {
+      "1": -0.33333333333333337,
+      "2": -1.6666666666666663,
+      "3": 2.0000000000000058,
+      "relative_imbalance": 3.053113317719172e-15
+    }
+  },
+  {
+    "U_m_s": 0.0016666666666666668,
+    "Pe_H": 166.66666666666666,
+    "Re_H": 0.16666666666666669,
+    "diffusion_time_s": 40.0,
+    "diffusion_length_m": 0.06666666666666667,
+    "ratio": 5,
+    "rate_uL_min": 2,
+    "profile": [
+      {
+        "x_H": 0.5,
+        "mean": 0.16784599520344484,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.17805627079033115,
+        "advective_time_s": 0.03
+      },
+      {
+        "x_H": 1.5,
+        "mean": 0.1674821790698993,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.23010911180709748,
+        "advective_time_s": 0.09
+      },
+      {
+        "x_H": 2.5,
+        "mean": 0.16779520393072522,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.28309041057386086,
+        "advective_time_s": 0.15
+      },
+      {
+        "x_H": 3.5,
+        "mean": 0.16668807114657602,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.32292442405688215,
+        "advective_time_s": 0.21
+      },
+      {
+        "x_H": 4.5,
+        "mean": 0.16732198840905468,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.35789626469696334,
+        "advective_time_s": 0.27
+      },
+      {
+        "x_H": 5.5,
+        "mean": 0.16707455262887388,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.3897877212340962,
+        "advective_time_s": 0.33
+      },
+      {
+        "x_H": 6.5,
+        "mean": 0.16617721399394694,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.41706840479877894,
+        "advective_time_s": 0.39
+      },
+      {
+        "x_H": 7.5,
+        "mean": 0.16726451559127783,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.4366542050406885,
+        "advective_time_s": 0.44999999999999996
+      },
+      {
+        "x_H": 8.5,
+        "mean": 0.16697679324669476,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.45826210149922497,
+        "advective_time_s": 0.51
+      },
+      {
+        "x_H": 9.5,
+        "mean": 0.16576941883530877,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.47508950730218336,
+        "advective_time_s": 0.57
+      },
+      {
+        "x_H": 10.5,
+        "mean": 0.16685164552617346,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.4917500432452607,
+        "advective_time_s": 0.63
+      },
+      {
+        "x_H": 11.5,
+        "mean": 0.167071824299014,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5071647044876739,
+        "advective_time_s": 0.69
+      },
+      {
+        "x_H": 12.5,
+        "mean": 0.16693385507503342,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5211740280904965,
+        "advective_time_s": 0.75
+      },
+      {
+        "x_H": 13.5,
+        "mean": 0.16673260277051738,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5329286865315432,
+        "advective_time_s": 0.8099999999999999
+      },
+      {
+        "x_H": 14.5,
+        "mean": 0.16715020256367755,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5447359891336214,
+        "advective_time_s": 0.87
+      },
+      {
+        "x_H": 15.5,
+        "mean": 0.16675348301166837,
+        "reverse_flux_fraction": -0.0,
+        "mixing_index": 0.5549979924477495,
+        "advective_time_s": 0.93
+      }
+    ],
+    "residence_time_s": 1.2167761777325399,
+    "t90_s": null,
+    "c_min": -0.06343322283774086,
+    "c_max": 1.2809443754432042,
+    "depth_H": 0.25,
+    "h_H": 0.3,
+    "cells": 8281,
+    "flux": {
+      "1": -0.33333333333333337,
+      "2": -1.6666666666666663,
+      "3": 2.0000000000000058,
+      "relative_imbalance": 3.053113317719172e-15
+    }
+  }
+]
