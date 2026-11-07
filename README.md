@@ -1,20 +1,18 @@
-# Microfluidic mixing simulator
+I merged this into my existing [lab-assay-lims project](https://github.com/jackaI1/lab-assay-lims/tree/main/projects/microfluidic-mixing-sim). The current code is in `projects/microfluidic-mixing-sim/` there. I kept the code here so older links still work.
 
-I built a small-channel mixing simulator because I wanted to see whether grooves actually help two liquid streams mix before they leave a chip. This matters for lipid nanoparticles: lipids dissolved in an organic solvent meet water, and the speed of solvent mixing affects the conditions where particles form.
+The move keeps the original layout, including `mixing/verification.py`, `mixing/solver.py`, `mixing/__init__.py`, `mixing/geometry.py`. I replaced the README with the report below and left out Git history, installed dependencies, caches and generated build output from the hub copy.
 
-I send the two streams through a Y-junction, then compare a smooth channel with one containing alternating herringbone grooves. The program solves the liquid motion and follows the solvent concentration. It saves pictures, a table of operating conditions, and a mixing score along the channel. A score of 1 means the solvent is evenly spread across a section.
+The 2 test source files moved with the code. No project-specific GitHub Actions workflow was retained; the report records the omitted checks, and the test sources can be run locally from the linked folder.
 
-To try it, install [micromamba](https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html), then run these commands from the repository folder on macOS or Linux:
+Other specific omissions: results/ (generated output).
 
-```sh
-micromamba create -y -f environment.yml
-micromamba run -n microfluidic python -m pytest -q
-OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 micromamba run -n microfluidic python -m mixing.study --coarse --output quick-results
-```
+Omitted workflows: `microfluidic-mixing-sim-verify.yml`: The relocated workflow failed in GitHub Actions and was removed to keep the hub checks independent. Local test sources remain available.
 
-Open `quick-results/mixing-and-verification.png` and `quick-results/sweep.csv`. The quick run is a coarse check; the saved [full results](results/sweep.csv) use finer meshes and 18 operating conditions. I use open-source FEniCSx and Gmsh here, not COMSOL or ANSYS.
+---
 
-![Mixing along the channel and analytic verification](results/mixing-and-verification.png)
+# microfluidic-mixing-sim
+
+I built a small-channel mixing simulator to learn how the underlying idea works. This is a learning project.
 
 ## Running my full comparison
 
@@ -32,14 +30,6 @@ OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 micromamba run -n microfluidic python -
 
 The analytic checks and mesh study retain their reference conditions. The model dimensions, liquid properties and groove definition are in [the model note](docs/model.md). Python writes all outputs under the selected folder and exits; it starts no server.
 
-## What I learned
-
-The grooves improve mixing modestly in this short channel. At a water-to-organic ratio of 3 and 0.5 µL/min, the saved sweep predicts an outlet score of **0.808 with grooves**, compared with **0.791 without them**. Slowing the flow gives diffusion more time and has a much larger effect than adding these grooves.
-
-My [design note](docs/design.md) compares the geometry, mesh sensitivity and mixing time. I would use these results to choose the next simulation or experiment, rather than call this an optimized chip. The model follows solvent only: it does not predict nanoparticle size, loading or biological performance. At higher flow, numerical concentration overshoots also limit how confidently I can interpret the scores.
-
-![Solved solvent concentration in the grooved channel](results/herringbone-concentration.png)
-
 ## Looking at the outputs
 
 - `sweep.csv` contains one row per operating condition, including the outlet score, Reynolds and Peclet numbers, and concentration bounds. Reynolds number compares inertia with viscosity; Peclet number compares transport by flow with molecular diffusion.
@@ -49,10 +39,14 @@ My [design note](docs/design.md) compares the geometry, mesh sensitivity and mix
 - Each run writes `.xdmf` and `.h5` files for [ParaView](https://www.paraview.org/), a free 3D results viewer. Open the XDMF file to inspect concentration, pressure and velocity. These regenerable field files are not committed.
 - `provenance.json` records solver versions, physical parameters and the requested sweep.
 
-## How I checked the calculation
+## Tests and limits
 
-The flow solver uses three-dimensional Stokes flow, an approximation for slow, viscous motion. I use quadratic velocity and linear pressure finite elements, then solve a convection-diffusion equation for solvent with streamline stabilization. The equations, boundary conditions, index definition and limits are in [docs/model.md](docs/model.md).
+There are 2 test source files in this copy. That source count does not establish an execution result. This is a source snapshot, and running it on a new machine may need environment-specific setup.
 
-All eight automated tests pass. They check coupled pressure and velocity against an exact parabolic channel-flow solution, second-order error reduction for reduced Poiseuille flow and 1D diffusion, inlet flow ratios, mass balance, transverse motion, uniform concentration preservation, section sampling and invalid inputs. The analytic diffusion error falls from 0.00492 to 0.000304 across two mesh halvings.
 
-GitHub Actions runs the tests and a coarse two-geometry study on every push and pull request, and saves the generated figures and fields as an artifact. The committed full study is separate from this coarse CI check. I compare finite-device mixing times with the textbook diffusion scale, W²/D, rather than claiming the simulator validates nanoparticle production.
+
+Generated output omitted from this copy: results/ (generated output). Regenerate it with the project scripts.
+
+The relocated workflow failed in GitHub Actions and was removed to keep the hub checks independent. Local test sources remain available.
+
+No project-specific GitHub Actions workflow was retained. The local test sources remain in this folder.
